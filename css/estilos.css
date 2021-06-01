@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin:0%;
+    background-color: #313030;
+}
+
+/*Barra de navegacion*/
+.nav{
+    background-color:black;
+    padding: 25px;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+}
+
+    .nav img{
+        padding: 0%;
+        margin: 0%;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .buscar{
+        position:absolute;
+        top: 22%;
+        left: 80%;
+    }
+
+    .buscar input{
+        width: 240px;
+        height: 40px;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid silver;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .nav li{
+        display: inline-block;
+        font-size: 25px;
+        margin: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        background-color: black;
+    }
+
+    .nav .btn{
+        width: 250px;
+        height: 60px;
+        background-color: rgb(5, 5, 5) ;
+        border:none;
+        font-size: 18px;
+        text-align: left;
+        color: white;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+        .btn a{
+            text-decoration: none;
+        }
+
+        .nav .btn:hover{
+            transition: 0.2s all;
+            background-color: rgb(31, 30, 30);
+        }
+
+    .portada img{
+        width: 100%;
+        height: 50%;
+    }
+
+/*Aside*/
+.aside{
+    width: 20%;
+    background-color: #313030;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    color: rgb(255, 255, 255);
+}
+
+    .aside h1{
+        padding-left: 15px;
+    }
+
+    .tarjeta{
+        width: 300px;
+        background-color: #313030;
+        border: rgb(44, 43, 43) solid;
+        height: 1695px;
+    }
+
+    .aside li{
+        list-style: none;
+        font-size: 15px;
+        margin: 50px;
+    }
+
+    .btn{
+        padding-left: 20px;
+        width: 250px;
+        height: 60px;
+        background-color: #313030;
+        border:none;
+        font-size: 18px;
+        padding-left: -30px;
+        margin-left: -50px;
+        text-align: left;
+        color: rgb(255, 255, 255);
+    }
+
+        .btn:hover{
+            background-color: rgb(68, 66, 66);
+            transition: .1s all;
+        }
+
+/*Pantalla del menu de las peliculas*/
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+     position: relative;
+    bottom: 1200px;
+    margin-left: 330px;
+    text-align: center;
+    width: 80%;
+}
+
+    .peliculas{
+        height: 400px;
+        width: 305px;
+        margin: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+        border: 5px  #310707 solid;
+        border-radius: 20px;
+        background: #440a0a;
+        box-shadow: 5px 5px 5px 5px rgb(117, 117, 117);
+    }
+
+        .peliculas img{
+            padding-top: 15px;
+            background: #440a0a;
+            width: 50%;
+            border-radius: 15px;
+            box-shadow: -5px 5px 8px rgb(39, 37, 37);
+        }
+ 
+
+        .peliculas h1{
+            font-size: 23.5px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            background: #440a0a;
+        }
+
+        .peliculas p{
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+            margin-bottom: 30px;
+            background: #440a0a;
+        }
+
+        .btn2 a{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background: #161515;
+        }
+
+        .btn2{
+            width: 200px;
+            height: 40px;
+            background: #161515;
+            position: relative;
+            bottom: 20px;
+            box-shadow: -2px 2px 5px 2px rgb(71, 68, 68);
+        }
+
+/*Informacion de cada pelicula*/
+.infopeli{
+    box-sizing: border-box;
+    padding: 0%;
+    margin:0%;
+    background-color: #313030;
+}
+
+    .principal{
+        background: #313030;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .principal h1{
+        position: relative;
+        bottom: 500px;
+        color: rgb(255, 255, 255);
+        width: 30%;
+        margin-left: 350px;
+        font-size: 50px;
+    }
+
+    .principal p{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        position: relative;
+        bottom: 470px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin-left: 370px;
+    }
+
+    .fotop img{
+        width: 20%;
+        height: 400px;
+        padding: 30px;
+        margin: 30px;
+        height: 500px;
+        box-shadow: -5px 5px 5px 5px;
+    }
+
+    .trailer{
+        width: 50%;
+        height: 500px;
+        margin-left: 400px;
+        border-radius: 10px;
+        box-shadow: -5px 6px 15px -5px rgb(134, 134, 134);
+        position: relative;
+        bottom: 200px;
+        border: 3px rgb(0, 0, 0) solid;
+    }
+
+    .btnp{
+        height: 65px;
+        width: 300px;
+        position: relative;
+        bottom: 110px;
+        margin-left: 700px;
+        border-radius: 8px;
+        background: rgb(1, 80, 63);
+        color: rgb(255, 255, 255);
+        font-size: 17px;
+        font-weight: bold;
+        box-shadow: -3px 2px 2px 0px rgb(0, 0, 0);
+    }
+
+        .btnp:hover{
+            transition: .2 all;
+            background: rgb(1, 145, 114);
+            color: rgb(0, 0, 0);
+        }
+
+/*footer*/
+.fin{
+    background: rgb(14, 13, 13);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    bottom: 5px;
+}
+
+    .fin img{
+        height: 60px;
+        background: rgb(14, 13, 13);
+        margin-right: 5px;
+        box-shadow: -3px 2px 3px 0px rgb(14, 13, 13);
+    }
+
+    .fin h1{
+        padding: 10px 45px 5px 2px ;
+        background-color: #161616;
+        color: #ff4e4e;
+        max-width: 300px;
+        width: 100%;
+        margin-left: 1300px;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .fin p{
+        text-align: center;
+        background: rgb(14,13,13);
+        color: rgb(255, 255, 255);
+    }
+
+        .email{
+            padding: 10px 45px 10px 0;
+            background-color: #161616;
+            color: #ff4e4e;
+            max-width: 300px;
+            margin-left: 1300px;
+            position: relative;
+            bottom: 30px;
+        }
+
+        .email input{
+            height: 55px;
+            width: 280px;
+            color: rgb(255, 255, 255);
+        }
+
+
